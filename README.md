@@ -10,7 +10,8 @@ This script is a simple Modbus version scanner that checks if a given IP address
 
 ## Usage
 
-python modbus_scanner.py <IP_ADDRESS> [-P <PORT>] [-u <UNIT_ID>] [-t <TIMEOUT>] <br>
+python modbus_scanner.py `<IP_ADDRESS> [-P <PORT>] [-u <UNIT_ID>] [-t <TIMEOUT>]` <br>
+Default values (in case you are not sure what to put): `-P 502 -t 10`
 
 ### Positional Arguments
 
